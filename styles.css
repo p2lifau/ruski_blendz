@@ -19,6 +19,7 @@ ul {
 a {
   text-decoration: none;
   color: white;
+  font-size: large;
 }
 
 .logo {
@@ -80,6 +81,16 @@ a {
   width: 30px;
   height: 21px;
 }
+.map {
+  display: flex;
+  justify-content: flex-end;
+}
+.ruski-header {
+  width: 100%;
+}
+.map img {
+  width: 600px;
+}
 
 /*  laptop & desktop sizes */
 @media all and (min-width: 960px) {
@@ -118,6 +129,7 @@ a {
     align-items: center;
   }
   .navbar-links li a {
-    padding: 2rem;
+    padding: 1rem;
+    margin: 2rem;
   }
 }
