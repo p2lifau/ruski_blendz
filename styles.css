@@ -7,6 +7,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   color: white;
+  background-color: black;
 }
 header {
   height: 100%;
@@ -16,8 +17,8 @@ ul {
 }
 
 a {
-  color: black;
   text-decoration: none;
+  color: white;
 }
 
 .logo {
@@ -39,7 +40,7 @@ a {
 }
 
 .navbar-links li a:hover {
-  color: #14f3c8;
+  color: #f0e68c;
 }
 
 .navbar-links ul {
@@ -66,7 +67,7 @@ a {
 .toggle-button .bar {
   height: 3px;
   width: 100%;
-  background-color: black;
+  background-color: white;
   border-radius: 10px;
 }
 .toggle-button {
@@ -88,6 +89,17 @@ a {
   .toggle-button .bar {
     display: none;
   }
+  .navbar {
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    height: 100px;
+    width: 100%;
+  }
+  .navbar-links.active {
+    display: none;
+  }
+
   .navbar-links {
     display: block;
   }
@@ -98,8 +110,8 @@ a {
     justify-content: flex-end;
   }
   .logo-container {
-    /* margin: 5px 10px;
-    padding: 5px 10px; */
+    margin: 5px 10px;
+    padding: 5px 10px;
     height: 100%;
     display: flex;
     flex-direction: column;
