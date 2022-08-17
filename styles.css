@@ -86,10 +86,14 @@ a {
   justify-content: flex-end;
 }
 .ruski-header {
-  width: 100%;
+  display: none;
 }
 .map img {
   width: 600px;
+}
+
+.ruski-mobile {
+  width: 100%;
 }
 
 /*  laptop & desktop sizes */
@@ -131,5 +135,18 @@ a {
   .navbar-links li a {
     padding: 1rem;
     margin: 2rem;
+  }
+
+  .header-img {
+    margin-top: 1rem;
+  }
+
+  .ruski-mobile {
+    display: none;
+  }
+
+  .ruski-header {
+    display: block;
+    width: 100%;
   }
 }
