@@ -106,6 +106,96 @@ a:hover {
   align-items: center;
 }
 
+/* Contact */
+.contact {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  padding: 2rem;
+  justify-content: center;
+  background-color: black;
+}
+.contact-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact-me {
+  color: #f0e68c;
+}
+.contact-header p {
+  text-align: center;
+}
+.contact-flex {
+  display: flex;
+  flex-direction: column;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  /* justify-self: center; */
+  align-self: center;
+}
+.contact-headings {
+  display: flex;
+  justify-content: center;
+}
+.contact-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.contact-icons p {
+  font-size: 1rem;
+}
+.tooSide {
+  display: flex;
+}
+.bottom-contacts {
+  display: flex;
+  flex-direction: column;
+}
+
+.submitContact {
+  display: flex;
+  width: 20%;
+  background-color: #f0e68c;
+  border: 0;
+  margin: 5px 0;
+  padding: 1rem 4rem;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+}
+
+.submitContact:hover {
+  background-color: #f0e68c;
+}
+
+.submitButton-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  margin: 10px;
+  padding: 1rem;
+}
+textarea {
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+  margin: 10px;
+  padding: 1rem;
+  font-family: "Montserrat", sans-serif;
+}
+
 /*  laptop & desktop sizes */
 @media all and (min-width: 960px) {
   .toggle-button {
@@ -160,10 +250,32 @@ a:hover {
     width: 100%;
   }
 
+  /* Contact */
+  .contact-header p {
+    font-weight: 400;
+    font-size: 1.2em;
+  }
+  .contact-flex {
+    flex-direction: row;
+    justify-content: center;
+    gap: 8rem;
+  }
+
   .footer-flex {
-    display: flex;
+    flex-direction: row;
     justify-content: space-around;
     gap: 1rem;
     align-items: flex-end;
+  }
+
+  .lb-map {
+    width: 50%;
+  }
+
+  .contact-heading1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
   }
 }
