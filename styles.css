@@ -6,6 +6,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  font-family: "Oswald", sans-serif;
   color: white;
   background-color: black;
 }
@@ -85,10 +86,7 @@ a:hover {
   width: 30px;
   height: 21px;
 }
-.map {
-  display: flex;
-  justify-content: flex-end;
-}
+
 .ruski-header {
   display: none;
 }
@@ -106,7 +104,7 @@ a:hover {
   align-items: center;
 }
 
-/* Contact */
+/* Contact & Map */
 .contact {
   display: flex;
   height: 100%;
@@ -137,6 +135,13 @@ a:hover {
   /* justify-self: center; */
   align-self: center;
 }
+
+.contact-heading1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
 .contact-headings {
   display: flex;
   justify-content: center;
@@ -144,7 +149,9 @@ a:hover {
 .contact-icons {
   display: flex;
   align-items: center;
+  flex-direction: column;
   justify-content: center;
+  align-self: center;
   gap: 1rem;
 }
 .contact-icons p {
@@ -167,7 +174,7 @@ a:hover {
   padding: 1rem 4rem;
   justify-content: center;
   font-size: 1.2rem;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Oswald", sans-serif;
   cursor: pointer;
 }
 
@@ -194,6 +201,10 @@ textarea {
   margin: 10px;
   padding: 1rem;
   font-family: "Montserrat", sans-serif;
+}
+
+.mobile-map {
+  width: 100%;
 }
 
 /*  laptop & desktop sizes */
@@ -251,6 +262,13 @@ textarea {
   }
 
   /* Contact */
+
+  .contact-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+    padding: 4rem;
+  }
   .contact-header p {
     font-weight: 400;
     font-size: 1.2em;
@@ -264,12 +282,7 @@ textarea {
   .footer-flex {
     flex-direction: row;
     justify-content: space-around;
-    gap: 1rem;
     align-items: flex-end;
-  }
-
-  .lb-map {
-    width: 50%;
   }
 
   .contact-heading1 {
@@ -278,4 +291,15 @@ textarea {
     align-items: center;
     gap: 1rem;
   }
+  .map-link {
+    width: 100%;
+  }
+
+  .mobile-map {
+    width: 100%;
+  }
+
+  /* .mobile-map {
+    display: none;
+  } */
 }
