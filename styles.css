@@ -267,7 +267,7 @@ textarea {
   .contact-icons {
     display: flex;
     flex-direction: row;
-    gap: 10rem;
+    gap: 5rem;
     padding: 4rem;
   }
   .contact-header p {
@@ -297,7 +297,15 @@ textarea {
   }
 
   .mobile-map {
-    width: 100%;
+    width: 110%;
+  }
+
+  input {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    margin: 10px;
+    padding: 2rem;
   }
 
   /* .mobile-map {
