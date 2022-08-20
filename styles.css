@@ -207,6 +207,27 @@ textarea {
 .mobile-map {
   width: 100%;
 }
+/* About */
+.main-about {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  justify-content: center;
+}
+
+.about-title {
+  text-align: center;
+  margin: 1rem;
+}
+.ru-about-pic {
+  border-radius: 100%;
+  /* border: 1px solid white; */
+}
+
+.bio-text {
+  line-height: 2rem;
+  padding: 2rem;
+}
 
 /*  laptop & desktop sizes */
 @media all and (min-width: 960px) {
@@ -290,7 +311,7 @@ textarea {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
+    gap: 1.5rem;
   }
   .map-link {
     width: 100%;
@@ -311,4 +332,31 @@ textarea {
   /* .mobile-map {
     display: none;
   } */
+
+  /* About */
+  .ru-about-pic {
+    width: 50%;
+  }
+  .main-about {
+    align-items: center;
+  }
+  .bio-text {
+    width: 50%;
+  }
+}
+
+@media all and (min-width: 1600px) {
+  .contact-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
+    gap: 3rem;
+    padding: 2rem;
+  }
+
+  .mobile-map {
+    width: 100%;
+  }
 }
