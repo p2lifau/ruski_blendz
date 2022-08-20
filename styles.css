@@ -219,10 +219,6 @@ textarea {
   text-align: center;
   margin: 1rem;
 }
-.ru-about-pic {
-  border-radius: 50%;
-  /* border: 1px solid white; */
-}
 
 .bio-text {
   line-height: 2rem;
@@ -336,6 +332,7 @@ textarea {
   /* About */
   .ru-about-pic {
     width: 50%;
+    border-radius: 100%;
   }
   .main-about {
     align-items: center;
