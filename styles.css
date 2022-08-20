@@ -215,6 +215,9 @@ textarea {
   justify-content: center;
 }
 
+.ru-about-pic {
+  border-radius: 0%;
+}
 .about-title {
   text-align: center;
   margin: 1rem;
