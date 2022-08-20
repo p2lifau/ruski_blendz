@@ -335,8 +335,8 @@ textarea {
 
   /* About */
   .ru-about-pic {
-    width: 50%;
-    border-radius: 100%;
+    width: 30%;
+    border-radius: 15%;
   }
   .main-about {
     align-items: center;
