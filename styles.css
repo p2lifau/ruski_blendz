@@ -217,6 +217,7 @@ textarea {
 
 .ru-about-pic {
   border-radius: 0%;
+  width: 100%;
 }
 .about-title {
   text-align: center;
