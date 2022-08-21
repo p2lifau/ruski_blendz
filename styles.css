@@ -273,6 +273,10 @@ textarea {
   justify-content: center;
 }
 
+.about-title {
+  color: #f0e68c;
+}
+
 .ru-about-pic {
   border-radius: 0%;
   width: 100%;
