@@ -225,12 +225,12 @@ a:hover {
 
 .submitContact {
   display: flex;
-  width: 20%;
+  width: 10%;
   background-color: #f0e68c;
   color: black;
   border: 0;
   margin: 5px 0;
-  padding: 1rem 4rem;
+  padding: 1rem 3rem;
   justify-content: center;
   font-size: 1.2rem;
   font-family: "Oswald", sans-serif;
