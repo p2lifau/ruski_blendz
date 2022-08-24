@@ -6,3 +6,5 @@
 ## Hosted Site Link: https://www.ruskiblendz.com/
 
 RuskiBlendz is a website I developed for a local barber, the site displays a gallery of haircuts, social media links, email and booking section.
+
+<img src="./img/ruski-final-header.jpeg">
